@@ -1,0 +1,14 @@
+  #include<iostream.h>
+  #include<stdio.h>
+  int main()
+  {
+	int pow,num,i,sum=1;
+	cout<<"enter any number and it's power to be calculated";
+	cin>>num>>pow;
+	for(i=1;i<=pow;i++)
+	{
+		sum=sum*num;
+	}
+	cout<<"power of"<<num<<" ="<<sum;
+	return 0;
+  }
