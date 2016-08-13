@@ -1,0 +1,15 @@
+   #include<stdio.h>
+   #include<iostream.h>
+   #include<string.h>
+   int main()
+   {
+	char str[20],rev[20];
+	cout<<"enter any string";
+	cin>>str;
+	int l=strlen(str);
+	for(int i=l-1,k=0;i>=0;i--,k++)
+	rev[k]=str[i];
+	rev[k]='\0';
+	cout<<"reversed string:"<<rev;
+	return 0;
+   }
