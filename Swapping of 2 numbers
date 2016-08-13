@@ -1,0 +1,14 @@
+   #include<iostream.h>
+   #include<stdio.h>
+   int main()
+   {
+	int num1,num2,temp;
+	cout<<"enter 2 numbers";
+	cin>>num1>>num2;
+	cout<<"numbers before swapping:"<<num1<<", "<<num2;
+	temp=num2;
+	num2=num1;
+	num1=temp;
+	cout<<"numbers after swapping:"<<num1<<", "<<num2;
+	return 0;
+   }
