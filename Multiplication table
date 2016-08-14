@@ -1,0 +1,17 @@
+  #include<stdio.h>
+  #include<iostream.h>
+  int main()
+  {
+	int range,i,j;
+	cout<<"enter the range";
+	cin>>range;
+	for(i=1;i<=range;i++)
+	{
+		for(j=1;j<=10;j++)
+		{
+			cout<<i<<"*"<<j<<"="<<i*j;
+			cout<<"\n";
+		}
+	}
+	return 0;
+  }
