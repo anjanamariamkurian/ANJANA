@@ -1,0 +1,19 @@
+   #include<stdio.h>
+   #include<iostream.h>
+   int fact(int);
+   int main()
+   {
+	int num,f;
+	cout<<"enter any number";
+	cin>>num;
+	f=fact(num);
+	cout<<"factorial="<<f;
+	return 0;
+   }
+   int fact(int n)
+   {
+	if(n==1)
+		return 1;
+	else
+		return(n*fact(n-1));
+   }
