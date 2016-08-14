@@ -1,0 +1,13 @@
+    #include<stdio.h>
+    #include<iostream.h>
+    int main()
+    {
+	float side,sarea,vol;
+	cout<<"enter side of cube";
+	cin>>side;
+	sarea=6*(side*side);
+	vol=side*side*side;
+	cout<<"\nsurface area="<<sarea;
+	cout<<"\nvolume="<<vol;
+	return 0;
+    }
